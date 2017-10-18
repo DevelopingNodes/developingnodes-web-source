@@ -1,0 +1,21 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+    {% include head.html %}
+    <body class="main-page has-push-menu">
+        {% include svg-icons.html %}
+        {% include header.html %}       
+        <div class="section-hero">
+            <div class="section-title">Insights from Nodal world</div>
+            <img src="assets/img/startup.svg" alt="Case Study" draggable="false" width="130" class="symbol">
+        </div> 
+        <section class="content">
+            {{ content }}
+        </section>
+        {% include footer.html %}
+    </body>
+</html>
+

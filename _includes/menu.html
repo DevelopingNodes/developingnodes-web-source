@@ -1,0 +1,11 @@
+<aside id="sidebar">
+    <nav id="navigation">
+      <h2>Menu</h2>
+      <ul>
+        {% for link in site.links %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        <!--<li><a class="feed" href="/feed.xml" target="_blank" title="Atom/RSS feed">Feed</a></li>-->
+      </ul>
+    </nav>
+</aside>
