@@ -9,9 +9,13 @@ layout: compress
         {% include svg-icons.html %}
         {% include header.html %}       
         <div class="section-hero">
+            <footer>
+                <p><span>DevelopingNodes</span> was made with <svg class="love"><use xlink:href="#icon-heart"></use></svg> by <a href={{"/about" | prepend: site.baseurl }} target="_blank" class="creator">Sonu Jose</a></p>
+            </footer>
             <div class="section-title">Insights from Nodal world</div>
-            <img src="assets/img/startup.svg" alt="Case Study" draggable="false" width="130" class="symbol">
+            <img src="assets/img/startup.svg" alt="Case Study" draggable="false" width="130" class="symbol">            
         </div> 
+        <div class="top-tag">What's new</div>
         <section class="content">
             {{ content }}
         </section>
